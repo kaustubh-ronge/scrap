@@ -41,28 +41,3 @@ yarn-error.log*
 next-env.d.ts
 
 
-# IDE/editor folders (if not already ignored)
-.vscode/
-.idea/
-
-# MongoDB dump or data folders (if used locally)
-dump/
-data/
-*.mongodb
-
-# Runtime files (in case your backend generates any)
-*.pid
-*.seed
-*.pid.lock
-
-# Uploads or temporary files (if your backend accepts files)
-uploads/
-tmp/
-temp/
-public/uploads/
-
-# Optional: If you're using Prisma or other ORMs
-/prisma/migrations/
-
-# Optional: Static export directory (Next.js)
-export/
