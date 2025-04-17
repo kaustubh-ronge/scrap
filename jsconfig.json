@@ -1,8 +1,10 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
+    "baseUrl": ".",  // The base directory for resolving non-relative modules
     "paths": {
-      "@/*": ["./*"]
+      "@data/*": ["./data/*"],  // Alias for the 'data' folder
+      "@lib/*": ["./lib/*"],    // Alias for the 'lib' folder
+      "@/*": ["./*"]            // Default alias to the root folder for any other paths
     }
   }
 }
